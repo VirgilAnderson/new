@@ -8,30 +8,20 @@ The log analysis software was written with the express intention of analyzing th
 
 The database in question is comprised of 3 separate tables: an author table, an article table and a log table.
 
+Authors table
 | Name | Bio | id |
 | :------------- | :------------- | :------------- |
 | text | text | var |
 
-Author Table
-| Name | Bio  |  id |
-
-|-------------------|
-
-| text | text | var |
-
 Article Table
-| Author | Title | Slug  | Lead | Body | Time     | id  |
-
-|--------|-------|-------|------|------|----------|-----|
-
-| text   | text  | text  | text | text | datetime | var |
+| Author | Title | Slug | Lead | Body | Time | id |
+| :------------- | :------------- | :------------- | :------------- | :------------- | :------------- | :------------- |
+| text | text | text | text | text | datetime | var
 
 Log
-| path | ip  | method | status | time     | id  |
-
-|------|-----|--------|--------|----------|-----|
-
-| text | var | text   | text   | datetime | var |
+| path | IP | Method | status | time | id |
+| :------------- | :------------- | :------------- | :------------- | :------------- | :------------- |
+| text | var | text | text | datetime | var |
 
 ## Installation
 
