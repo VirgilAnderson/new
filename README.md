@@ -10,17 +10,17 @@ The database in question is comprised of 3 separate tables: an author table, an 
 
 Authors table
 | Name | Bio | id |
-| :------------- | :------------- | :------------- |
+| :------------- | :------------- |
 | text | text | var |
 
 Article Table
 | Author | Title | Slug | Lead | Body | Time | id |
-| :------------- | :------------- | :------------- | :------------- | :------------- | :------------- | :------------- |
+| :------------- | :------------- |
 | text | text | text | text | text | datetime | var
 
 Log
 | path | IP | Method | status | time | id |
-| :------------- | :------------- | :------------- | :------------- | :------------- | :------------- |
+| :------------- | :------------- |
 | text | var | text | text | datetime | var |
 
 ## Installation
