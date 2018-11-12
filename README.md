@@ -17,12 +17,16 @@ Author Table
 
 Article Table
 | Author | Title | Slug  | Lead | Body | Time     | id  |
+
 |--------|-------|-------|------|------|----------|-----|
+
 | text   | text  | text  | text | text | datetime | var |
 
 Log
 | path | ip  | method | status | time     | id  |
+
 |------|-----|--------|--------|----------|-----|
+
 | text | var | text   | text   | datetime | var |
 
 ## Installation
