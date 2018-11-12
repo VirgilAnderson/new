@@ -10,7 +10,9 @@ The database in question is comprised of 3 separate tables: an author table, an 
 
 Author Table
 | Name | Bio  |  id |
+
 |-------------------|
+
 | text | text | var |
 
 Article Table
